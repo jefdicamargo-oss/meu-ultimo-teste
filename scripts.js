@@ -21,7 +21,7 @@ JavaScript NÃO é JAVA
     [x] Trocar a imagem do copo
 */
 let imagem = document.querySelector(".imagem-copo")
-let fundo = document.querySelector("circulo'")
+let fundo = document.querySelector(".circulo")
 function trocaImagem(endereco) {
     imagem.src = endereco
 }
